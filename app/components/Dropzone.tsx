@@ -23,7 +23,7 @@ const ImageForm = ({defaultValue,HandleImagesChange}:IImageForm) => {
 {load && <Widget
                                     clearable
                                     multiple
-                                    imagesOnly
+                                     
                                     // values={imgs}
                                     onChange={() => {
                                     // setProduct({
@@ -47,7 +47,7 @@ const ImageForm = ({defaultValue,HandleImagesChange}:IImageForm) => {
                                     setImages(immg) 
                                     
                                 }}
-                                    publicKey="c9dc899e33771c13d946"/>}
+                                    publicKey="f53d07207a3a7be0026c"/>}
 
         </Box>
     )
